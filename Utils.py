@@ -13,7 +13,7 @@ ID_COLUMN_NAME = "ID"
 JSON_FILE_NAME = "columns.json"
 SCALER_MODEL_PATH = "scaling_model"
 PCA_MODEL_PATH = "pca_model"
-TRAIN_MODEL_PATH = "best_trained_model"
+TRAIN_MODEL_PATH = "Best_Trained_Model_LR"
 
 @st.cache_resource
 def load_json():
